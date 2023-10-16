@@ -1,0 +1,78 @@
+data types in TypeScript
+var num:number = 123;
+var num:number = 123;
+
+2. string
+var myName:string = "Santosh";
+
+3. boolean
+var condi:boolean = true;
+
+4. array
+var fruits:string[]=["Apple","Mango","Strawberry","Kiwi"];
+var boys:Array<String> = ["Vijay","Rahul","Rohit"];
+
+5. tupple: it allows us to store multiple type of data array in array
+var emp: [number,string,boolean] = [101,"Sanjay",true];
+
+6. enum: it allows to create naming constant variable
+enum days{sun,mon,tue,wed,thu,fri,sat}
+var first = days.mon;
+consol.log(first);
+
+7. union: it allows us to store multiple type of data in variable.
+var z:string | number | boolean = 1520;
+
+8. any: it allows to store all type of data in it.
+
+var mix:any="hello";
+
+Data Types in TypeScript
+1. number2
+2. string
+3. boolean
+4. array
+5. tuple
+6. enum
+7. union
+8. any
+
+*oops:
+1. class: it is a collection of data-member and member function.
+         -it is a template which we can reuse.
+         -to create class we use class class keyword.
+
+*this: it represent current class or object
+*object: it is an instance of class.
+        -it allows to access class data members.
+
+*constructor: it is special member function of class.
+            -it execute automatically when object of class initialize.
+            -in ts class constructor name must constructor only.
+
+=============================================================================
+1/4/23
+
+*Inheritance: accessing parent class property into child class.
+             -we extends child class with parent class by using extends keyword.
+
+super(): it represents parent class constructor int child class constructor.
+        -it must be first statement in child class constructor.
+
+*Polymorphism: ability to take more than one form.
+
+*Encaspulatin: wrapping of data into single unit.
+
+*Abstraction: Hinding the unnecessary details and showing only essential information. 
+
+1.public: by using this we can access data member outside and inside of class.
+2.protected by using this we access class data member within same class and its child class but not outside class.
+3.private: we can data member within same class only not in derive and not outside class.
+
+*Module concept in ts:- here we can access data from one file to another file.
+                      -
+
+Task: create class with name product containing data member pid, pname, pPrice, brand and one function which will display all data.
+
+
+
